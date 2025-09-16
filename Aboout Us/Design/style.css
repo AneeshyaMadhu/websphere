@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Caveat:wght@400..700&family=Chilanka&family=Itim&family=Knewave&family=Luckiest+Guy&family=Nosifer&family=Playwrite+AU+QLD:wght@100..400&display=swap');
+
+* {
+    margin: 0%;
+}
+
+.itim-regular {
+    font-family: "Itim", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+/* Head */
+/* .head{
+    background-color: #21042A;
+    height: 140px;
+   z-index: 2;
+   position: fixed;
+   width: 100vw;
+
+}
+.head img{
+   float: left;
+   width:75px;
+   height: 75px;
+  text-align: center;
+  margin-top: 28px;
+  margin-left: 20px;
+
+  
+}
+.head img:hover{
+ 
+      filter: brightness(0.5);
+    text-shadow: 2px 2px 2px white;
+    transition: ease-in;
+    cursor: pointer;
+}
+.head h1{
+    display: inline-block;
+    float: left;
+    text-align: center;
+    margin-top: 25px;
+    font-size: 70px;
+    margin-left: 25px;
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: normal;
+} */
+/* college */
+.collegeimg {
+    position: relative;
+  
+}
+
+.collegeimg img {
+    width: 100vw;
+    height: 700px;
+    float: both;
+    display: inline-block;
+}
+
+.knowus {
+    height: 100px;
+    background-color: #21042A;
+    width: 50%;
+    border-radius: 20px;
+    margin-left: 350px;
+    z-index: 1;
+    margin-bottom: 100px;
+    display: inline-block;
+    position: absolute;
+   
+    left: 28%;
+    
+    transform: translate(-50%, -50%);
+ 
+
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.knowus h1 {
+    font-size: 70px;
+    text-align: center;
+    font-family: Itim;
+    color: white;
+
+}
+.cir{
+    height:700px;
+   float: right;
+   position: relative;
+}
+.cir img{
+   z-index: -1;
+    position: absolute;
+     transform: translate(-50%, -50%);
+   width: -100vw;
+     right: -225px;
+     
+   
+}
+.clear {
+    clear: both;
+}
